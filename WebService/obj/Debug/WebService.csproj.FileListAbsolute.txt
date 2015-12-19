@@ -1,0 +1,1 @@
+C:\Users\stefan\documents\visual studio 2013\Projects\StudentService\WebService\bin\Debug\WebService.exe.config

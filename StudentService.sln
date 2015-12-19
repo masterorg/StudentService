@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebService", "WebService\WebService.csproj", "{40F336BF-2199-401C-B09E-59FE9ED86FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentClient", "StudentClient\StudentClient.csproj", "{2C5A5F2B-627B-4649-AB5F-4864E70312B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentLibrary", "StudentLibrary\StudentLibrary.csproj", "{28720E84-CB9F-477A-9C78-A6BA40BCE1C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F336BF-2199-401C-B09E-59FE9ED86FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F336BF-2199-401C-B09E-59FE9ED86FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F336BF-2199-401C-B09E-59FE9ED86FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F336BF-2199-401C-B09E-59FE9ED86FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C5A5F2B-627B-4649-AB5F-4864E70312B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C5A5F2B-627B-4649-AB5F-4864E70312B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C5A5F2B-627B-4649-AB5F-4864E70312B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C5A5F2B-627B-4649-AB5F-4864E70312B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28720E84-CB9F-477A-9C78-A6BA40BCE1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28720E84-CB9F-477A-9C78-A6BA40BCE1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28720E84-CB9F-477A-9C78-A6BA40BCE1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28720E84-CB9F-477A-9C78-A6BA40BCE1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+c:\users\stefan\documents\visual studio 2013\Projects\StudentService\StudentService\bin\Debug\StudentService.exe.config
