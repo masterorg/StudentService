@@ -26,9 +26,18 @@ namespace StudentClient
             s.Prezime="Plazic";
             s.Index="65/12";
             proxy.Write(s);
-            Console.WriteLine("Student had been added \n Reading non existing student");
+            Console.WriteLine("Student had been added \nAdding new subject to student");
 
-            s = proxy.Read("62");
+            /**********************ADDING SUBJECTS TO STUDENT***********************/
+            proxy.AddSubject(s.Index, new Subject { Naziv = "Math" });
+            proxy.AddSubject(s.Index, new Subject { Naziv = "Programing" });
+
+            s = proxy.Read(s.Index);
+            Console.WriteLine("Student: "+s.Ime+" "+s.Prezime+" subjects:");
+            foreach (Subject item in s.Subjects)
+            {
+                Console.WriteLine(item.Naziv);
+            }
 
             Console.ReadKey();
 

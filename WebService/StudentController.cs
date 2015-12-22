@@ -78,5 +78,20 @@ namespace WebService
         {
             AddStudent(s);
         }
+
+
+        public void AddSubject(string index, Subject subject)
+        {
+
+            if (!students.ContainsKey(index))
+            
+                Changed("Student with index :" + index + " doesn't exists");
+            else
+            {
+                students[index].Subjects.Add(subject);
+                Changed("Subject: " + subject.Naziv + " had been added to student: " + students[index].Ime + " " + students[index].Prezime);
+            }
+            
+        }
     }
 }

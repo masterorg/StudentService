@@ -15,5 +15,7 @@ namespace StudentLibrary
       Student Read(String index);
         [OperationContract]
       void Write(Student s);
+        [OperationContract]
+        void AddSubject(string index, Subject subject);
     }
 }
