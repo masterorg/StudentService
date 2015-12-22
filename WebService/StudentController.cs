@@ -9,8 +9,9 @@ using System.Threading.Tasks;
 
 namespace WebService
 {
+    public delegate void ErrorStudent(string message);
     [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
-  public  class StudentController
+  public  class StudentController:IStudent
     {
 
         private Dictionary<String, Student> students;
@@ -22,6 +23,16 @@ namespace WebService
            
 
         }
+
+        //event
+        public event ErrorStudent Changed;
+
+        public virtual void OnChanged(String message)
+        {
+            if (Changed != null)
+                Changed(message);
+        }
+        
 
         public void AddStudent(Student st)
         {
@@ -49,5 +60,23 @@ namespace WebService
         }
 
 
+
+        public Student Read(string index)
+        {
+            if(!students.ContainsKey(index))
+            {
+                Changed("Student with index :" + index + " doesn't exists");
+                return null;
+            }
+            else
+            {
+                return students[index];
+            }
+        }
+
+        public void Write(Student s)
+        {
+            AddStudent(s);
+        }
     }
 }

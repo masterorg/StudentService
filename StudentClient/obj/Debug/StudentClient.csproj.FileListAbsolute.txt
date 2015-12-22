@@ -3,3 +3,6 @@ C:\Users\stefan\Desktop\StudentService\StudentClient\bin\Debug\StudentClient.exe
 C:\Users\stefan\Desktop\StudentService\StudentClient\bin\Debug\StudentClient.pdb
 C:\Users\stefan\Desktop\StudentService\StudentClient\obj\Debug\StudentClient.exe
 C:\Users\stefan\Desktop\StudentService\StudentClient\obj\Debug\StudentClient.pdb
+C:\Users\stefan\Desktop\StudentService\StudentClient\bin\Debug\StudentLibrary.dll
+C:\Users\stefan\Desktop\StudentService\StudentClient\bin\Debug\StudentLibrary.pdb
+C:\Users\stefan\Desktop\StudentService\StudentClient\obj\Debug\StudentClient.csprojResolveAssemblyReference.cache
