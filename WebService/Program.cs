@@ -10,16 +10,20 @@ namespace WebService
 {
     class Program
     {
-        private static StudentController cont;
+      
 
         static void Main(string[] args)
         {
-            cont = new StudentController();
+          StudentController  singleton = new StudentController();
 
             Uri address = new Uri("http://localhost:8000/IStudentServer");
             BasicHttpBinding bindig = new BasicHttpBinding();
-            ServiceHost sv = new ServiceHost(typeof(IStudent));
-            
+            ServiceHost sv = new ServiceHost(singleton);
+            sv.AddServiceEndpoint(typeof(IStudent), bindig, address);
+            sv.Open();
+            Console.WriteLine("WCFServer spreman za primanje poruka.");
+            Console.ReadLine();
+            sv.Close();
 
         }
     }

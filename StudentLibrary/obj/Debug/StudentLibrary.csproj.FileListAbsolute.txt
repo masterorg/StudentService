@@ -2,3 +2,7 @@ C:\Users\stefan\documents\visual studio 2013\Projects\StudentService\StudentLibr
 C:\Users\stefan\documents\visual studio 2013\Projects\StudentService\StudentLibrary\bin\Debug\StudentLibrary.pdb
 C:\Users\stefan\documents\visual studio 2013\Projects\StudentService\StudentLibrary\obj\Debug\StudentLibrary.dll
 C:\Users\stefan\documents\visual studio 2013\Projects\StudentService\StudentLibrary\obj\Debug\StudentLibrary.pdb
+C:\Users\stefan\Desktop\StudentService\StudentLibrary\bin\Debug\StudentLibrary.dll
+C:\Users\stefan\Desktop\StudentService\StudentLibrary\bin\Debug\StudentLibrary.pdb
+C:\Users\stefan\Desktop\StudentService\StudentLibrary\obj\Debug\StudentLibrary.dll
+C:\Users\stefan\Desktop\StudentService\StudentLibrary\obj\Debug\StudentLibrary.pdb

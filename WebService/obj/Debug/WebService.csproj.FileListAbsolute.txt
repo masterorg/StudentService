@@ -1,1 +1,9 @@
 C:\Users\stefan\documents\visual studio 2013\Projects\StudentService\WebService\bin\Debug\WebService.exe.config
+C:\Users\stefan\Desktop\StudentService\WebService\bin\Debug\WebService.exe.config
+C:\Users\stefan\Desktop\StudentService\WebService\obj\Debug\WebService.csprojResolveAssemblyReference.cache
+C:\Users\stefan\Desktop\StudentService\WebService\bin\Debug\WebService.exe
+C:\Users\stefan\Desktop\StudentService\WebService\bin\Debug\WebService.pdb
+C:\Users\stefan\Desktop\StudentService\WebService\bin\Debug\StudentLibrary.dll
+C:\Users\stefan\Desktop\StudentService\WebService\bin\Debug\StudentLibrary.pdb
+C:\Users\stefan\Desktop\StudentService\WebService\obj\Debug\WebService.exe
+C:\Users\stefan\Desktop\StudentService\WebService\obj\Debug\WebService.pdb
